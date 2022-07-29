@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jai ho</h1>
+    <script>
+        // Javascript program to find all the required permutations 
+        let globalArray=[];
+        function permute(strArray, l, r) {
+            if (l == r){
+                var res="";
+                for(let j=0;j<=r;j++){
+                    res=res+strArray[j];
+                }
+                globalArray.push(res);
+                return;
+            }
+            else {
+                for (let i = l; i <= r; i++) {
+                    //Swappping the elements
+                    let temp=strArray[i];
+                    strArray[i]=strArray[l];
+                    strArray[l]=temp;
+                    //Permutating for the next element
+                    permute(strArray, l + 1, r);
+                    //Backtraking
+                    temp = strArray[i];
+                    strArray[i] = strArray[l];
+                    strArray[l] = temp;
+                }
+            }
+        }
+        //JavaScript program to print the required object 
+        function requiredOutput(strArray){
+            permute(strArray,0,strArray.length-1);
+            var count=0;
+            var requiredChar='';
+            for(let i=0;i<globalArray.length;i++){
+                 let tempCount = 1;
+                for(let j=0;j<globalArray[i].length;j++){
+                    if(j==0){
+                        if(count<tempCount){
+                            count=tempCount;
+                            requiredChar=globalArray[i][j];
+                        }
+                    }
+                    else if(globalArray[i][j]==globalArray[i][j-1]){
+                        tempCount=tempCount+1;
+                        if (count < tempCount) {
+                            count = tempCount;
+                            requiredChar = globalArray[i][j];
+                        }
+                    }
+                    else{
+                        tempCount=1;
+                    }
+                }
+            }
+            return (count+" "+"\""+requiredChar+"\"");
+        }
+
+        let strArray = ["ccdd", "bbbb", "bbab"];
+        let n = strArray.length;
+        console.log(requiredOutput(strArray));
+        //console.log(globalArray);
+
+    // This code is contributed by avanitrachhadiya2155 
+    </script>
+</body>
+</html>

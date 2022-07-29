@@ -1,0 +1,16 @@
+.gallary{
+    width: 30%;
+    height:400px;
+    margin:1.4%;
+}
+h1{
+    font-family: 'Potta One', cursive;
+    margin-left:1.5%;
+    border-bottom:darkblue;
+    border-top:white;
+    border-left:white;
+    border-right:white;
+    border-style: solid;
+    padding-bottom:1%;
+    width:31%;
+}

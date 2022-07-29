@@ -1,0 +1,141 @@
+
+/******************************************/
+/*********following code For index.html****/
+/******************************************/
+
+h1 , header{
+    background:#808080;
+    font-size: 250%;
+    
+    color: #faebd7;
+ }
+ 
+ h1{
+   text-align: center;
+   text-transform: uppercase;
+ }
+ nav,a {
+    font-variant: small-caps;
+     font-size: 100%;
+     font-family: Arial,"Times New Roman",serif;
+     background: #808080;
+    color: #000000;
+   
+ }
+     
+    a:hover {
+    
+    background:#ffffff;
+    color:#ff0000 ;
+ }
+ 
+ img{
+   display: none;
+ }
+ 
+ section,h2 {
+   font-style:normal;
+   font-size: 150%;
+   background:#00ffff;
+ }
+ h2{
+   text-transform: uppercase;
+ }
+ 
+ /********************************************/
+ /*********Following code for history.html****/
+ /********************************************/
+ 
+ h1{
+     
+   text-align:center;
+   font-size:300%;
+   text-transform: uppercase;
+       }
+ h1,header { 
+  background: gray;
+   color:#000000;
+ }
+ nav,a{
+   font-variant: small-caps;
+     font-size: 140%;
+     font-family: Arial,"Times New Roman", serif;
+   color:#000000;
+ }
+ a:hover {
+    background:#ffffff;
+   color:#000000 ;}
+ 
+ img{
+    display: none;
+ }
+ 
+ h2{
+   font-size: 120%;
+   text-transform:uppercase;
+ }
+ section {
+     font-style:normal;
+   font-size: 150%;
+   background:#00ffff;
+ }
+ 
+ ul{
+   font-size:80%;
+   
+ }
+ 
+ 
+ /******************************************/
+ /*********Following code for teams.html****/
+ /******************************************/
+ 
+ h1 , header{
+    background:#808080;
+    font-size: 200%;
+    
+    color: #faebd7;
+ }
+ 
+ h1{
+   text-align: center;
+   text-transform: uppercase;
+ }
+ nav,a {
+    font-variant: small-caps;
+     font-size: 100%;
+     font-family: Arial,"Times New Roman",serif;
+     background: #808080;
+    color: #000000;
+   
+ }
+     
+    a:hover {
+    
+    background:#ffffff;
+    color:#000000 ;
+ }
+ 
+ img{
+   display: none;
+ }
+ h2{
+   font-size: 120%;
+   text-transform:uppercase;
+ }
+ section {
+     font-style:normal;
+   font-size: 150%;
+   background:#00ffff;
+ }
+ table,th,td{
+   border: 2px solid;
+ }
+ table{
+   border-collapse: collapse;
+   width: 70%
+    
+ }
+ th{
+   height:70px;
+ }

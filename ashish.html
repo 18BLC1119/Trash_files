@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>"Forms and tables"</title>
+</head>
+
+<body>
+    <form action="/tocos">
+        <div class="preference">
+            <label for="cheese">Do you like cheese?</label>
+            <input type="checkbox" id="cheese">
+        </div>
+        <div class="preference">
+            <label for="username">Type your user name:</label>
+            <input type="text" placeholder="username" id="username" name="username">
+            
+        </div>
+        <div class="preference">
+            <label for="password" >Type your password</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </div>
+        <div class="button1">
+            <button name="button" type="button">
+                Press here
+            </button>
+        </div>
+        <div>
+            <input type="submit" value="submit11">
+        </div>
+        
+    </form>
+    <form action="https://www.reddit.com/search/">
+        <input type="text" name="q">
+        <input type="submit" value="Reedit search button">
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <input type="submit" value="Google search button">
+    </form>
+    <form action="/tocos">
+        <p>
+            <label for="agree">I agree to everything </label>
+            <input type="checkbox" id="agree" name="agree">
+
+        </p>
+        <label for="select_your_shirt_size">Select your shirt size S</label>
+        <input type="radio" name="size" id="select_your_shirt_size" value="S">
+        <label for="select_your_shirt_size1">M</label>
+        <input type="radio" name="size" id="select_your_shirt_size1" value="M">
+        <label for="select_your_shirt_size11">L</label>
+        <input type="radio" name="size" id="select_your_shirt_size11" value="L">
+        <button type="submit">Submit</button>
+        
+        <p>
+            <label for="select">pet select</label>
+            <select id="select" name="select_pet">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Elephent">Elephant</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="range_value">Range Value </label>
+            <input type="range" id="range_value" max="100" min="1" step="5" name="range_value">
+        </p>
+        <label for="text_area">Text area:</label>
+        <textarea name="text_area" id="text_area" rows="10" cols="100" placeholde="write something here"></textarea>
+
+        <p>
+            <label for="number">Number </label>
+            <input type="number" id="number" min="1" max="100" step="2">
+        </p>
+    </form>
+
+    <form action="/internship">
+        <h1>Race Registration!</h1>
+        <p>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" required>
+        </p>
+        <p>Select a Race</p>
+        <p>
+            <input type="radio" id="fun_run" name="race" value="5K">
+            <label for="fun_run">Fun Run 5k</label>
+            <p></p>
+            <input type="radio" id="Half_marathon" name="race" value="half_race">
+            <label for="Half_marathon">Half Marathon</label>
+            <p></p>
+            <input type="radio" id="Full_marathon" name="race" value="full_race">
+            <label for="Full_marathon">Full Marathon</label>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="password">
+        </p>
+        <p>
+            <label for="Select_Age_Group">Select Age Group</label>
+            <select id="Select_Age_Group" name="Select_Age_Group">
+                <option value="18-25">18-25</option>
+                <option value="26=35">26-35</option>
+                <option value="36-55">36-35</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Register</button>
+        </p>
+    </form>
+</body>
+
+
+</html>

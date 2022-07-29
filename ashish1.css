@@ -1,0 +1,20 @@
+h2{
+    color:brown;
+    background-color:gold;
+    text-decoration:underline wavy;
+    letter-spacing:15px;
+    font-size:50px;
+}
+p{
+    text-align:right;
+    font-weight:bold;
+    color:crimson;
+    background-color:rgb(255, 255, 0);
+    line-height:2;
+    font-family:fantasy;
+    letter-spacing:5px;
+}
+button{
+    color:#000000;
+    background-color:cyan;
+}

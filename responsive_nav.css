@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+}
+#container{
+    display:flex;
+    justify-content:space-between;
+}
+a{
+    font-size:2em;
+}
+#container p{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    flex:1;
+    max-width:50%;
+    justify-content:space-evenly;
+}
+@media (min-width:900px){
+    h1{
+        color:brown;
+    }
+}
+@media (min-width:600px) and (max-width:899px){
+    h1{
+        color:burlywood;
+    }
+}
+@media (min-width:0px) and (max-width:599px)
+{
+    h1{
+        color:chartreuse;
+        font-size:2em;
+    }
+    a{
+        font-size:1em;
+    }
+    section{
+        flex-direction:column;
+        align-items:center;
+    }
+    p{
+        justify-content:space-between;
+        flex-direction:column;
+        align-items:center;
+    }
+}
+h1{
+    font-size:4em;
+}

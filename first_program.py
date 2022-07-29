@@ -1,0 +1,12 @@
+print('hello world');
+help(print);
+print("This program calculates the average of two numbers,");
+print("The numbers are 4 and 8");
+print("The average is: ",(4+8)/2);
+age=32;
+print(age);
+number1=input("please enter the first number");
+number2=input("please enter the second number");
+print(type(number1));
+print("the required average is ",(float(number1)+float(number2))/2);
+print(round(float(number1),2));
